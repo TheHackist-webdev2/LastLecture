@@ -5,7 +5,8 @@
 }
 
 #nav li {
-    width: 193px;
+    height: 50px;
+    width: 200px;
     position: sticky;
     top: 0;
     overflow: hidden;
@@ -19,7 +20,7 @@
 
 
 #banner-center {
-    height: 400px;
+    height: 300px;
     display: flex;
     align-items: center;
 }
@@ -156,4 +157,8 @@
 }
 
 #footer {
+    height: 40px;
+    position: static;
+    bottom: 0;
+    overflow: clip;
 }
