@@ -2,11 +2,11 @@ body {
 }
 /*This is to line up the navigation items with page elements for style, modify at your own risk*/
 #nav li {
-    width: 123px;
-}
-.navMenu {
-    width: 100%;
-    text-align: center;
+    height: 50px;
+    width: 200px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
 }
 
 #content-table {
