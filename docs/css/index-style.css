@@ -126,7 +126,7 @@
 
 #filler{
     width: 100%;
-    height: 400px;
+    height: 100%;
     text-align: center;
     justify-content: center;
     display: flex;
@@ -144,7 +144,7 @@
 
 .item:hover {
     background-color: rgb(199, 199, 255);
-    transition: 0.8s;
+    transition: 0.4s;
 }
 
 .placeWrapper {

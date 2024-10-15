@@ -1,5 +1,4 @@
-body {
-}
+
 /*This is to line up the navigation items with page elements for style, modify at your own risk*/
 #nav li {
     height: 50px;
@@ -12,13 +11,14 @@ body {
 #content-table {
     display: flex;
     justify-content: left;
-    height: 80%;
+    height: 60%;
     width: 100%;
     overflow: scroll;
     flex-shrink: 3;
 }
 
 #content-table table{
+
     width: 500px;
     border: none;
 }
@@ -54,7 +54,7 @@ body {
 
 #content tr:hover td {
     background-color: rgb(199, 199, 255);
-    transition: 0.8s;
+    transition: 0.5s;
 }
 
 #page-heading {
@@ -75,14 +75,34 @@ body {
     font-size: 17px;
 }
 
-#footer {
+#spacer {
+    height: 100px;
     
+}
+
+
+#footer {
+    height: 40px;
+    position: static;
+    bottom: 0;
+    overflow: clip;
+}
+
+#filler{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    border: none;
+    background-color: white;
+    color: lightgrey;
 }
 
 #page-wrapper {
     display: flex;
     width: 100%;
-    height: 85%;
+    height: 500px;
     justify-content: center;
     align-items: center;
     
